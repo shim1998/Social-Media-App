@@ -1,6 +1,12 @@
 # Social Media App
 A mock social media web-app where users can create and read posts made by themselves and others respectively.
 
+## Deploy program locally
+```
+    npm install
+    node index
+```
+
 ## Technologies Used
 + NodeJS
 + Express
