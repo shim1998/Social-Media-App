@@ -1,0 +1,21 @@
+{
+  "name": "social_media_app",
+  "version": "1.0.0",
+  "description": "A learning project about NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "learning"
+  ],
+  "author": "helewrer3",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.1.1",
+    "path": "^0.12.7",
+    "sequelize": "^6.3.5",
+    "sqlite3": "^5.0.1"
+  }
+}
