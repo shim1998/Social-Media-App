@@ -4,6 +4,7 @@ A mock social media web-app where users can create and read posts made by themse
 ## Technologies Used
 + NodeJS
 + Express
++ SQLite3
 + Sequelize
 + Bootstrap
 + HTML, CSS, Javascript, SQL
