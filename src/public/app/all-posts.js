@@ -21,7 +21,7 @@ async function loadPosts() {
                     let body = $('#comment-body').val();
                     let userdata = JSON.parse(window.localStorage.user);
                     let id = userdata.id;
-                    $.post('/', {
+                    $.post('/api/comments/', {
                         userId: id,
                         postId: postId,
                         body: body
@@ -57,11 +57,11 @@ function getCard(data, wdt, str, lim, f){
 function createCommentForm(){
     $('#posts-container').append($(`
         <div class="col-12">
-            <h1 class="display-6 text-center">Write Comment</h1>
+            <h1 class="h4">Write Comment</h1>
             <div class="form-group">
                 <textarea class="form-control" id="comment-body"></textarea>
+                <button type="submit" class="btn btn-primary mt-2" id="comment-create">Create Comment</button>
             </div>
-            <button type="submit" class="btn btn-primary" id="comment-create">Create Comment</button>
         </div>
     `))
 }
