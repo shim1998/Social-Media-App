@@ -25,7 +25,7 @@ Simply clone the repo locally and run the following commands at the root of the 
 ```
 Log into the port number 3000 or whatever port number you have set as your environment variable of node.\
 
-## Dependcies
+## Dependencies
 To run this app locally, you need to have [NodeJS](https://nodejs.org/en/) installed in your system.
 
 ## Todo
