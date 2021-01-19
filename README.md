@@ -15,6 +15,8 @@ Once logged-in, the client can either -
 + View snippets all the posts posted to the app by all users.
 + Expand one particular post and view it in detail.
 + Filter posts to only see the one made by the client.
++ See other users' comments to a post.
++ Write various comments within a post.
 
 ## Running at your end
 Since the DBMS used is SQLite, you don't need to set up a server. \
@@ -29,8 +31,8 @@ Log into the port number 3000 or whatever port number you have set as your envir
 To run this app locally, you need to have [NodeJS](https://nodejs.org/en/) installed in your system.
 
 ## Todo
-+ A comment section to allow users to respond to different posts.
-+ Redirecting the client to 'All posts' section after he/she has created a post, currently the app adds the post into the database without any confirmation message.
++ Currently, writing a comment and post does not give a visual confirmation to the client of the task being complemeted and just simply
+adds the required values into the database. So, a visual cue for the above task needs to be implemented.
 + Replacing placeholder footer.
 
 ## Expandability
