@@ -16,8 +16,17 @@ Once logged-in, the client can either -
 + Expand one particular post and view it in detail.
 + Filter posts to only see the one made by the client.
 
-## Running on your end
-Since the DBMS used is SQLite, you don't need to set up a server. Simply download the repo and run the 'index.js' in the root. Log into the port number 3000 or whatever port number you have set as your environment variable of node.
+## Running at your end
+Since the DBMS used is SQLite, you don't need to set up a server. \
+Simply clone the repo locally and run the following commands at the root of the project - 
+```
+  npm install
+  node index
+```
+Log into the port number 3000 or whatever port number you have set as your environment variable of node.\
+
+## Dependcies
+To run this app locally, you need to have [NodeJS](https://nodejs.org/en/) installed in your system.
 
 ## Todo
 + A comment section to allow users to respond to different posts.
