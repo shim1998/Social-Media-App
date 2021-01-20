@@ -34,7 +34,6 @@ To run this app locally, you need to have [NodeJS](https://nodejs.org/en/) insta
 ## Todo
 + Currently, writing a comment and post does not give a visual confirmation to the client of the task being complemeted and just simply
 adds the required values into the database. So, a visual cue for the above task needs to be implemented.
-+ Replacing placeholder footer.
 
 ## Expandability
 + Currently, the users are stored in the localStorage of the browser. So, one way the app can be expanded is by having some sort of 'authentication' method, wherein users can be accessed using a password field.
