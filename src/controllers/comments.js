@@ -10,7 +10,7 @@ async function createComment(userid, postid, body) {
 }
 
 async function getCommentsByPost(postid){
-    const comments = await Comment.findAll({where: {postId: postid}});
+    const comments = await Comment.findAll({where: {postId: postid}, include: [User]});
     return comments;
 }
 
